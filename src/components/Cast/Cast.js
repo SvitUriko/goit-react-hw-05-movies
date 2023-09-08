@@ -1,7 +1,7 @@
 import { fetchCastMovie } from "api";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import { List, Wrap } from "./Cast.styled";
+import {  Wrap } from "./Cast.styled";
 
 const Cast = () => {
     const { movieId } = useParams();
